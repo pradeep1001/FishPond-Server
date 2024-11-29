@@ -1,0 +1,21 @@
+{
+  "name": "fishpond-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --env-file=config.env --watch server/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.2",
+    "uuid": "^9.0.1"
+  },
+  "main": "index.js",
+  "description": ""
+}
